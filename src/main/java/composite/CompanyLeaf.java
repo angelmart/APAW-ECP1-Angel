@@ -2,7 +2,7 @@ package composite;
 
 import entities.Company;
 
-public class CompanyLeaf extends CompanyComponent{
+public class CompanyLeaf implements CompanyComponent{
     
     private Company company;
     
