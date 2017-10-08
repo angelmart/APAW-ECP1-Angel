@@ -1,13 +1,13 @@
 package composite;
 
-public abstract class CompanyComponent {
+public interface CompanyComponent {
     
-    public abstract boolean isComposite();
+    public boolean isComposite();
     
-    public abstract void add(CompanyComponent companyComponent);
+    public void add(CompanyComponent companyComponent);
     
-    public abstract void remove(CompanyComponent companyComponent);
+    public void remove(CompanyComponent companyComponent);
     
-    public abstract String view();
+    public String view();
 
 }

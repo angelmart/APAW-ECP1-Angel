@@ -13,7 +13,7 @@ public class Company {
     
     public Company( int id ) {
         this.id = id;
-        this.staffs = new ArrayList<Staff>();
+        this.staffs = new ArrayList<>();
     }
     
     public int getId() {

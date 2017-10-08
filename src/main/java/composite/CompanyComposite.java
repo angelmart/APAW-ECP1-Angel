@@ -3,7 +3,7 @@ package composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CompanyComposite extends CompanyComponent{
+public class CompanyComposite implements CompanyComponent{
     
     String name;
     List<CompanyComponent> companyComponentList;
