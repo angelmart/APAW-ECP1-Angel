@@ -27,7 +27,7 @@ public class CompanyLeaf extends CompanyComponent{
 
     @Override
     public void remove(CompanyComponent companyComponent) {
-        // Do nothing because is leaf
+        throw new UnsupportedOperationException("Operación no soportada");
     }
 
 }
