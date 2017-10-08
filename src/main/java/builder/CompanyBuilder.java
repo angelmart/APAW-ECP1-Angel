@@ -1,8 +1,8 @@
 package builder;
 
-import models.Company;
-import models.Size;
-import models.Staff;
+import entities.Company;
+import entities.Staff;
+import entities.Size;
 
 public class CompanyBuilder {
     
