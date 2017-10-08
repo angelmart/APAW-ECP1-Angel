@@ -42,6 +42,17 @@ public class CompanyCompositeTest {
     }
     
     @Test
+    public void testAdd() {
+        this.companyComponent1.add( this.companyComponent3 );
+    }
+    
+    @Test
+    public void testRemove() {
+        this.companyComponent1.remove( this.companyComponent3 );
+        
+    }
+    
+    @Test
     public void testAddIfLeaf() {
         exception.expect(UnsupportedOperationException.class);
         this.companyComponent2.add( this.companyComponent3 );
@@ -59,6 +70,8 @@ public class CompanyCompositeTest {
         assertEquals("2", this.companyComponent3.view());
         assertEquals("companyCompositeOne", this.companyComponent1.view());
     }
+    
+
 
 
 }
