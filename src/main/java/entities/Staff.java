@@ -36,7 +36,7 @@ public class Staff {
     
     @Override
     public String toString() {
-        return "Company [id=" + id + ", familyName=" + familyName + ", country=" + country + "]";
+        return "Staff [id=" + id + ", familyName=" + familyName + ", country=" + country + "]";
     }
     
     
