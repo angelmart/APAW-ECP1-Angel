@@ -4,8 +4,8 @@ public class Camarero {
     
     private ConductaStrategy strategy;
     
-    public void saludar() {
-        this.strategy.saludar();  
+    public String saludar() {
+        return this.strategy.saludar();  
     }
     
     public void setStrategy(ConductaStrategy strategy) {
